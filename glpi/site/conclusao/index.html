@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>MkDocs - Documentação sobre o GLPI</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "MkDocs";
+        var mkdocs_page_input_path = "conclusao.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação sobre o GLPI
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Cabeçalho</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">Introdução</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Instalação do GLPI</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../glpi/">Configuração e Uso do GLPI</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">MkDocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../conclui.mdmk">Conclusão</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação sobre o GLPI</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">MkDocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>Começaremos agora um tutorial para instalar e utilizar o MkDocs utilizando VSCode e Python:</p>
+<p>Passo 1: Preparativos
+*Instalar Python:</p>
+<ul>
+<li>Baixe e instale o Python 3.x a partir do site oficial do Python. Durante a instalação, certifique-se de marcar a opção "Add Python to PATH".</li>
+</ul>
+<p>*Instalar Visual Studio Code (VSCode):</p>
+<ul>
+<li>Baixe e instale o VSCode a partir do site oficial do Visual Studio Code.</li>
+</ul>
+<p>*Instalar Git:</p>
+<ul>
+<li>Baixe e instale o Git a partir do site oficial do Git.</li>
+</ul>
+<p>Passo 2: Configurar o Ambiente
+*Abrir o VSCode:</p>
+<ul>
+<li>
+<p>Abra o VSCode.</p>
+</li>
+<li>
+<p>Na opção de extensões, procure e instale a extensão Python
+  <img alt="alt text" src="../Sem%20t%C3%ADtulo.png" /></p>
+</li>
+<li>
+<p>Na opção de arquivo abra os arquivos do explorer e crie uma pasta chamada 'meus sites'
+*Abrir um Terminal no VSCode:</p>
+</li>
+<li>
+<p>Na pasta que foi criada, abra o terminal</p>
+</li>
+<li>
+<p>Vá para Terminal &gt; New Terminal ou use o atalho Ctrl + Shift + (crase).</p>
+</li>
+</ul>
+<p>Passo 3: Criar e Ativar um Ambiente Virtual
+*Criar um Ambiente Virtual:</p>
+<ul>
+<li>No terminal do VSCode, navegue até o diretório onde você deseja criar o seu projeto MkDocs e execute: python -m venv env</li>
+</ul>
+<p>*Ativar o Ambiente Virtual:</p>
+<ul>
+<li>No VSCode, abra a paleta de comandos (ctrl=shift+p) e procure pela opção "Python: Select Interpreter"</li>
+</ul>
+<p>Passo 4: Instalar o MkDocs</p>
+<p>*Começando a instalação</p>
+<ul>
+<li>
+<p>Feche e abra o terminal novamente, depois digite o comando: pip3 install mkdocs mkdocs-material</p>
+</li>
+<li>
+<p>Aguarde e verifique se a instalação foi bem sucedidia.</p>
+</li>
+</ul>
+<p>Passo 5: Criar um Novo Projeto MkDocs</p>
+<p>*Criando um Projeto:
+ - ainda no terminal do arquivo execute o comando: mkdocs new "nome da sua escolha"</p>
+<ul>
+<li>neste arquivo haverá duas subpastas, na pasta "mkdocs.yml" é onde será arquitetado todo o seu projeto</li>
+</ul>
+<p><img alt="alt text" src="../2.png" /></p>
+<ul>
+<li>dentro do espaço demostrado abaixo será feita a nomeação do projeto assim como todo o conteúdo a ser documentado.</li>
+</ul>
+<p><img alt="alt text" src="../3.png" /></p>
+<p>Passo 6: Executar o Servidor de Desenvolvimento</p>
+<p>*Iniciar o Servidor de Desenvolvimento:</p>
+<ul>
+<li>
+<p>No terminal, dentro do diretório do projeto, execute: "mkdocs serve"</p>
+</li>
+<li>
+<p>Isso iniciará um servidor de desenvolvimento e fornecerá um URL onde você pode visualizar seu site localmente.</p>
+</li>
+</ul>
+<p>*Visualizar o Site:</p>
+<ul>
+<li>Abra um navegador e vá para o URL fornecido para visualizar o seu site MkDocs.</li>
+</ul>
+<p>Passo 7: Editar o Conteúdo</p>
+<p>*Abrir o Projeto no VSCode:</p>
+<ul>
+<li>No VSCode, abra o diretório do projeto (my-project).</li>
+</ul>
+<p>*Editar o index.md:</p>
+<ul>
+<li>No painel do explorador do VSCode, abra o arquivo docs/index.md e comece a editar o conteúdo. As mudanças serão refletidas automaticamente no navegador se o servidor de desenvolvimento estiver em execução.</li>
+</ul>
+<p>Passo 8: Personalizar o Site
+*Editar o mkdocs.yml:</p>
+<ul>
+<li>O arquivo mkdocs.yml é onde você pode configurar o tema, adicionar páginas, configurar navegação e outras opções.</li>
+</ul>
+<p>*Adicionar Páginas:</p>
+<ul>
+<li>Crie novos arquivos .md no diretório docs e adicione referências a essas páginas no mkdocs.yml para incluí-las na navegação do site.</li>
+</ul>
+<p><img alt="alt text" src="../6.png" />
+<img alt="alt text" src="../5.png" /></p>
+<p>Passo 9: Construir o Site para Produção         <br />
+*Construir o Site:
+ - Quando estiver pronto para publicar o site, execute: mkdocs build</p>
+<ul>
+<li>Isso criará um diretório site contendo os arquivos HTML estáticos que podem ser hospedados em qualquer servidor web.</li>
+</ul>
+<p>E pronto, seguindo estes passos o MkDocs esta pronto para uso de acordo com seu critério.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../glpi/" class="btn btn-neutral float-left" title="Configuração e Uso do GLPI"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../glpi/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

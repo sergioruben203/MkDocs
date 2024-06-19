@@ -1,0 +1,5 @@
+Este trabalho tem como objetivo principal demonstrar o processo de instalação e uso do GLPI, proporcionando uma visão detalhada sobre suas funcionalidades e benefícios. A escolha do GLPI se justifica por sua capacidade de integração com diversas outras ferramentas, sua flexibilidade para personalizações e a vasta comunidade de usuários e desenvolvedores que contribuem para sua constante evolução.
+
+A primeira seção deste trabalho aborda o processo de instalação propriamente dito, cobrindo desde o download do software até a configuração de parâmetros essenciais para seu funcionamento.
+
+Na segunda seção, exploramos as principais funcionalidades do GLPI, como o controle de inventário e integração com outros sistemas.Espera-se que este trabalho sirva como um guia prático e informativo para profissionais de TI interessados em adotar o GLPI, fornecendo todas as informações necessárias para uma implementação bem-sucedida e maximização dos benefícios oferecidos por essa poderosa ferramenta.

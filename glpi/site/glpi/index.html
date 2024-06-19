@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Configuração e Uso do GLPI - Documentação sobre o GLPI</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Configura\u00e7\u00e3o e Uso do GLPI";
+        var mkdocs_page_input_path = "glpi.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentação sobre o GLPI
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Cabeçalho</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">Introdução</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">Instalação do GLPI</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Configuração e Uso do GLPI</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../conclusao/">MkDocs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../conclui.mdmk">Conclusão</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentação sobre o GLPI</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Configuração e Uso do GLPI</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>Nesta aba iremos mostrar como configurar e utilizar o seu glpi com o melhor desempenho:</p>
+<p>-1. Configurar</p>
+<p>*Configurações Gerais</p>
+<ul>
+<li>Na opção de configuração geral, altere os "Limite de padrões decimais" para  2</li>
+<li>Altere a opção "Tamanho da página para listas suspensas (paginação usando rolagem)" de 100 para 50</li>
+</ul>
+<p>-2. Valores padrão</p>
+<p>*Personalização </p>
+<p><img alt="alt text" src="../2-1.png" /></p>
+<ul>
+<li>Troque a opção de "Ordem de exibição de sobrenomes e nomes" para "Primeiro nome, sobrenome"</li>
+<li>Na opção "Resultados a serem exibidos por página" coloque a quantidade baseada na que possui</li>
+<li>Marque "Sim" na opção "Mostrar ID do GLPI"</li>
+<li>Troque o "Formato da data" ´para "DD-MM-YYYY"</li>
+<li>Na opção "Formato dos números" selecione a opção "1,234.56"</li>
+<li>Altere a "Guia central padrão" para a "Visão pessoal"</li>
+</ul>
+<p>*Assistência 
+ - Marque sim na opção "Mostrar novos chamados na página inicial"</p>
+<p>-3. Assistência 
+ - Configure a opção "Limite dos agendamentos para planejamentos" de acordo com as horas trabalhadas
+ - Remova o dia de domingo da opção "Dias de trabalho do planejamento" (a menos que a empresa funcione no domingo)</p>
+<p>-4. Autenticação
+Na opção de autênticação sera regitrado de acordo com  o método utilizado pela empresa</p>
+<ul>
+<li>Se a empresa possui o AD com vários usuarios utilize o diretório LDAP</li>
+<li>Se utilizam e-mail utilize a opção "Servidor de e-mail" e configure de acordo com as instruções do e-mail</li>
+</ul>
+<p>-5. Entidade
+ *Nomeando a entidade principal</p>
+<p><img alt="alt text" src="../3-1.png" /></p>
+<ul>
+<li>Nomeie de acordo com o nome da empresa ou instituição sobre a qual compõem todos os equipamentos e pessoas a serem registradas</li>
+</ul>
+<p><img alt="alt text" src="../6-1.png" /></p>
+<ul>
+<li>Caso haja uma ou mais filias da empresa sendo administradas é possivel alterar a entidade clicando no canto superior direito e selecionando a entidade a ser monitorada.</li>
+</ul>
+<p>-6. Grupos 
+*Separação de acordo com a função</p>
+<p><img alt="alt text" src="../4-1.png" /></p>
+<ul>
+<li>Nesta aba é possivel nomear os diferentes grupos que executam diferentes funções dentro da empresa, alterando ,tambem, as funções que poderão exercer dentro da plataforma</li>
+</ul>
+<p>-7. Usuário
+*Criando usuários</p>
+<p><img alt="alt text" src="../5-1.png" /></p>
+<ul>
+<li>Aqui é onde serão criados os respectivos usuários que irão utilizar a plataforma colocando nome,criando seu respectivo email e senha, a que entidade pertence, etc. </li>
+<li>Poderá ,também ,ser determinado que tipo de autorização cada usuário poderá ter, com cada nível contendo algumas funções que outros não terão.</li>
+</ul>
+<p>-8. Perfis
+*Perfil</p>
+<p><img alt="alt text" src="../7.png" /></p>
+<ul>
+<li>Nesta aba estarão listados todos os pautorizações disponiveis</li>
+</ul>
+<p>*Assistência</p>
+<p><img alt="alt text" src="../8.png" /></p>
+<ul>
+<li>Altere e/ou determine as funções que poderão ser exercidas por cada um dos niveis de autorização</li>
+</ul>
+<p>-9. Inventário 
+ * Configurações de Inventário</p>
+<p><img alt="alt text" src="../9.png" /></p>
+<ul>
+<li>Determine que tipos de itens poderão ser listados no inventário.</li>
+</ul>
+<p>-10. Criar Chamado
+*Criando um chamado</p>
+<p><img alt="alt text" src="../9-1.png" /></p>
+<ul>
+<li>Crie um chamado que servirá como mensagem a ser recebida por todos os usuários,descrevendo do que se trata o chamado, determinando o nivel do assunto, o tipo de cartegoria, o nível de urgência, etc.</li>
+</ul>
+<p>-11. Chamados 
+ * Lista de chamados</p>
+<p><img alt="alt text" src="../10.png" /></p>
+<ul>
+<li>
+<p>Nesta aba serão listados todos os chamados realizados</p>
+</li>
+<li>
+<p>Respondendo Chamados</p>
+</li>
+</ul>
+<p><img alt="alt text" src="../11.png" /></p>
+<ul>
+<li>Cada usuário poderá responder ao chamado e tratar do assunto, que será recebido por quem emitiu o chamado</li>
+</ul>
+<p>-12. Planejamento
+*Criando um evento</p>
+<p><img alt="alt text" src="../12.png" /></p>
+<ul>
+<li>Crie um evento de acordo com a data e a hora desejada, que poderá ser visualizado para os outros usuários</li>
+</ul>
+<p>*Descrevendo o evento</p>
+<p><img alt="alt text" src="../13.png" /></p>
+<ul>
+<li>Personalize o seu evento, determinando data e hora, descrevendo-o, selecionando o usuário a ser convidado, etc.</li>
+</ul>
+<p>-13. Ativos</p>
+<ul>
+<li>Listando componentes do inventário</li>
+</ul>
+<p><img alt="alt text" src="../14.png" /></p>
+<ul>
+<li>Nesta aba é possivel adicionar e visualizar todos os itens que compõem o inventário da empresa, cada item é separado por tipo,, para adicionar um item clique no item desejado a ser adicionado, clique no botão superior esquerdo "adicionar", descreva as caracteristicas exigidas e clique em salvar,</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../intro/" class="btn btn-neutral float-left" title="Instalação do GLPI"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../conclusao/" class="btn btn-neutral float-right" title="MkDocs">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../intro/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../conclusao/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

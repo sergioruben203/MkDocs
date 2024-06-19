@@ -1,0 +1,17 @@
+site_name: Documentação sobre o GLPI
+theme: material
+nav:
+  - Cabeçalho: index.md 
+  - Introdução: about.md
+  - Instalação do GLPI: intro.md
+  - Configuração e Uso do GLPI: glpi.md
+  - MkDocs: conclusao.md 
+  - Conclusão: conclui.mdmk
+theme: 
+    name: readthedocs
+#    logo: assets/images/logo.svg
+#    favicon: assets/images/favicon.ico
+    language: pt-BR
+#theme: material
+#theme: bootstrap
+#theme: readthedocs
